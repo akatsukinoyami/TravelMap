@@ -1,6 +1,8 @@
 # Katsu's Travel Map
 
-Website: [map.katsu.moe](https://map.katsu.moe)
+Application for hosting map with your collecton of marks.
+
+Demo: [map.katsu.moe](https://map.katsu.moe)
 
 ## Initial Setup
 
