@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && yarn compress",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "compress": "node ./scripts/compressor.js",
-    "build:caprover": "yarn build && yarn compress && yarn bundle:recreate",
+    "build:caprover": "yarn build && yarn bundle:recreate",
     "bundle:create": "tar czf bundle.tar.gz --transform 's,^dist/,public/,' dist captain-definition Dockerfile nginx.conf",
     "bundle:delete": "rm -f bundle.tar.gz",
     "bundle:recreate": "yarn bundle:delete && yarn bundle:create"
