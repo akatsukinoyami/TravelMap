@@ -1,11 +1,8 @@
 # Katsu's Travel Map
 
 Website: [map.katsu.moe](https://map.katsu.moe)
-Kudos fo idea to: [Rescor/World](https://github.com/Rescor/World)
 
 ## Initial Setup
-
-- Clone repository
 
 ```sh
   git clone https://github.com/akatsukinoyami/TravelMap.git
@@ -13,7 +10,9 @@ Kudos fo idea to: [Rescor/World](https://github.com/Rescor/World)
   yarn # install dependencies
 ```
 
-- To run locally use
+## Scripts
+
+- To run locally
 
 ```sh
   yarn dev
@@ -32,3 +31,9 @@ Kudos fo idea to: [Rescor/World](https://github.com/Rescor/World)
 ```
 
 You can change markers positions in the file `/public/markers.json`
+
+## Kudos
+
+- [Rescor/World](https://github.com/Rescor/World) - Idea of application
+- [Svelte](https://svelte.dev/) - Cybernetically enhanced web apps
+- [MapLibre](https://maplibre.org/) - Open-source TypeScript library for publishing maps on website
