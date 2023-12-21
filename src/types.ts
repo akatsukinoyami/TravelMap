@@ -1,0 +1,1 @@
+export type Mark = [string, number, number, string, string?];

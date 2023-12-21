@@ -1,0 +1,11 @@
+{
+  "CartoCDN Positron": "/mapStyle/cartocdn_positronGl.json",
+  "Maplibre DemoTiles": "/mapStyle/maplibre_demotiles.json",
+  "MapTiler 3D": "/mapStyle/maptiler/3D.json",
+  "MapTiler Basic": "/mapStyle/maptiler/basic.json",
+  "MapTiler Bright": "/mapStyle/maptiler/bright.json",
+  "MapTiler DarkMatter": "/mapStyle/maptiler/darkMatter.json",
+  "MapTiler OpenStreetMap": "/mapStyle/maptiler/openStreetMap.json",
+  "MapTiler Satellite": "/mapStyle/maptiler/satellite.json",
+  "MapTiler Toner": "/mapStyle/maptiler/toner.json"
+}
