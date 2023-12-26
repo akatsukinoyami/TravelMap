@@ -74,7 +74,7 @@
     margin-bottom: 1rem;
     text-transform: capitalize;
     align-items: baseline;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    font-family: "Helvetica Neue";
   }
 </style>

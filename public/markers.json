@@ -1,117 +1,1183 @@
-{
-  "places": [
-    ["eot6H4pub7", 46.960397, 32.034295, "Зоопарк, Николаев, Украина", "zoo"],
-    ["I24ATkW4QV", 48.186435, 30.665125, "Музей РВСН, Украина", "rvsn"],
-    ["3E7SQ3xwLW", 48.522150, 26.498384, "Хотинская крепость, Украина", "castle"],
-    ["CJmJI66UA0", 48.674581, 26.562424, "Камянец-Подольский, Украина", "castle"],
-    ["W8cPLMByud", 48.764167, 30.243611, "Софиевский Парк, Умань, Умань", "park"],
-    ["wjXrSgoFSt", 52.111888, 31.781761, "Три Сестры", "stella"],
-    ["lXO0F4TWLM", 48.166703, 11.607673, "Английский сад, Мюнхен, Германия", "park"],
-    ["LMPdK3BKjW", 47.795025, 13.047849, "Вальс-Зиценхайм, Зальцбург, Австрия", "castle"]
-  ],
-  "cities": [
-    ["OmIxZQtxgF", 46.484213, 30.731689, "Одесса, Украина", "odessa"],
-    ["lXhsQIkuyg", 46.975574, 31.993813, "Николаев, Украина", "nikolaev"],
-    ["Gp8uSuvu8T", 50.450439, 30.523537, "Киев, Украина", "kiev"],
-    ["ax37X74mEH", 49.839336, 24.029882, "Львов, Украина", "lwow"],
-    ["2fy5dryWvo", 48.625256, 22.288700, "Ужгород, Украина", "uzhgorod"],
-    ["dXmxEaAszU", 48.292067, 25.935092, "Черновцы, Украина", "chernovtsi"],
-    ["Ysakh1kmeK", 47.824188, 31.178673, "Южноукраинск, Николаевская область, Украина", "yuzhnoukrainsk"],
-    ["dnlL6wO1bK", 46.627791, 31.188144, "Коблево, Николаевская область, Украина", "koblevo"],
-    ["vdmuOPIwaj", 46.611840, 31.025070, "Южный, Одесская область, Украина", "yuzhni"],
-    ["Mkf9d1FOwC", 45.684328, 28.609091, "Болград, Одесская область, Украина", "bolgrad"],
-    ["ol4cqksM8s", 45.407979, 29.761417, "Вилково, Одесская область, Украина", "vilkovo"],
-    ["Ku8KvcJhF8", 44.948227, 34.100264, "Симферополь", "simferopol"],
-    ["7X3xphND7p", 44.497416, 34.169446, "Ялта", "yalta"],
-    ["ELySvIX1sU", 44.676401, 34.410123, "Алушта", "alushta"],
-    ["tqiMsgPO5E", 44.850557, 34.976107, "Судак", "sudak"],
-    ["G04gAY97te", 45.026680, 35.383858, "Феодосия", "feodosiya"],
-    ["pZHEgbWElW", 46.835991, 29.611113, "Тирасполь, ПМР", "tiraspol"],
-    ["5c8ickxaIo", 46.623465, 29.910923, "Днестровск, ПМР", "dnestrovsk"],
-    ["jwSF8rckZW", 47.222104, 39.720179, "Ростов-на-Дону, Россия", "rostov-on-don"],
-    ["9dye6azZ9B", 50.080325, 14.428794, "Прага, Чехия", "prague"],
-    ["6hhRwIwbFe", 50.673117, 14.038853, "Усти-над-Лабем, Чехия", "usti-nad-labem"],
-    ["UwmeczaZXU", 51.049629, 13.737921, "Дрезден, Германия", "dresden"],
-    ["wM2Ix7TbvQ", 47.809545, 13.054817, "Зальцбург, Австрия", "salzburg"],
-    ["kgTeYJxsEY", 48.137151, 11.575394, "Мюнхен, Германия", "munchen"]
-  ],
-  "airports": [
-    ["UQA0No4v1f", 59.800005, 30.273198, "Международный аэропорт Пулково</br>Санкт-Петербург, Россия", "plane"],
-    ["TtgYr6Ssez", 53.889219, 28.034168, "Национальный аэропорт Минск, Беларусь", "plane"],
-    ["L7MWLZqPpl", 46.442617, 30.675641, "Международный аэропорт Одесса, Украина", "plane"],
-    ["nfg9wsnf3w", 50.351074, 30.896168, "Международный аэропорт Борисполь, Украина", "plane"],
-    ["3cxUQmgPNF", 41.260700, 28.742626, "Международный аэропорт Стамбул (тур. İstanbul Havalimanı),</br>Новый или Третий аэропорт (тур. Üçüncü Havalimanı), Турция", "plane"],
-    ["XsmZkvVf7q", 25.264444, 55.311666, "Международный аэропорт Дубай (араб. مطار دبي الدولي,) ОАЭ", "plane"],
-    ["frjL7wWA3F", 14.745392, -17.490493, "Международный аэропорт имени Блеза Дианя</br>Дакар, Сенегал", "plane"],
-    ["Y2Ngg4dYVr", -33.984028, 25.611603, "Международный аэропорт Порт-Элизабет, ЮАР", "plane"],
-    ["8mcknQU26u", -26.132608, 28.232073, "Международный аэропорт имени О. Р. Тамбо</br>Йоханнесбург, ЮАР", "plane"],
-    ["nQHb4r2xvw", 25.260001, 51.614243, "Международный аэропорт До́ха</br>(араб. مطار الدوحة الدولي, англ. Doha International Airport)</br>Катар", "plane"]
-  ],
-  "firstVoyage": [
-    ["bsXv5P4vzw", 59.675095, 28.412178, "Усть-Луга, Россия", "port"],
-    ["oXXNXaSUGC", 31.264156, 32.322932, "Порт-Фуад, мухафаза Порт-Саид, Египет", "anchor"],
-    ["8o002nnpSW", 30.378101, 32.338493, "Большое Горькое озеро, мухафаза Исмаилия, Египет", "anchor"],
-    ["hk2lTvYjmq", 29.902413, 32.571605, "Порт-Суец, мухафаза Суэц, Египет", "anchor"],
-    ["FQ7rWBunfQ", 25.440761, 55.257188, "Бункеровка, Шарджа, ОАЭ", "anchor"],
-    ["n1Ubz5y6jy", 30.061900, 47.925846, "Умм-Каср, Ирак", "port"],
-    ["ybS4z1q3cA", 9.924617, 76.270533, "Кочин, Индия", "port"],
-    ["f3ayJ0HGuM", 18.938605, 72.841457, "Мумбаи, Индия", "port"],
-    ["yXbQVm3JXk", 21.153554, 72.720419, "Хазира, Индия", "port"],
-    ["fQloXB165U", 25.004573, 55.073723, "Джебел-Али, ОАЭ", "port"],
-    ["t9IPzCINCo", 3.039515, 101.413759, "Кланг, Малайзия", "port"],
-    ["UIdXRYv8X1", 1.166178, 103.668020, "Малаккский пролив, Cингапур", "anchor"],
-    ["pIwIxpVc2A", 30.289349, 122.080313, "Дайшань, Китай", "port"],
-    ["3rvqCQxb9n", 31.231311, 121.470058, "Шанхай, Китай", "port"],
-    ["qVdrfJeATr", 35.833262, 14.671345, "Бункеровка, Мальта", "anchor"],
-    ["hrZQjUD4fo", 35.160276, -2.936718, "Надор, Марокко", "port"],
-    ["Vim8kQCV6R", 35.854511, -5.226503, "Бункеровка, Сеута, Испания", "anchor"]
-  ],
-  "secondVoyage": [
-    ["YJcmjwdw2z", 59.675095, 28.412178, "Усть-Луга, Россия", "port"],
-    ["zxLNqpx7FY", 55.574987, 12.827019, "мост Флинтраннан", "vessel"],
-    ["hkGDPw5Gfn", 51.565251, 1.459344, "Скрывались от шторма на рейде Англии", "anchor"],
-    ["2omkBhbSlu", 35.731662, -0.707663, "Мерс-эль-Кебир, Алжир", "port"],
-    ["SX7aQKv1sO", 34.924892, 24.821490, "Бункеровка, Кали Лименес, Крит, Греция", "anchor"],
-    ["PIfpL86HP1", 31.264156, 32.322932, "Порт-Фуад, мухафаза Порт-Саид, Египет", "anchor"],
-    ["XyoxEskD4c", 30.378101, 32.338493, "Большое Горькое озеро, мухафаза Исмаилия, Египет", "anchor"],
-    ["v45Y345bhv", 29.902413, 32.571605, "Порт-Суец, мухафаза Суэц, Египет", "anchor"],
-    ["jgAqCToBJj", 9.924617, 76.270533, "Кочин, Индия", "port"],
-    ["LwS54c56kU", 25.004573, 55.073723, "Джебел-Али, ОАЭ", "port"],
-    ["Xe0JZv3hLw", 33.483277, 11.117271, "Порт Зарзис, Тунис", "port"],
-    ["NOeTBKp2XT", 59.892599, 30.217197, "Санкт-Петербург, Россия", "port"],
-    ["emuNobVMhk", 50.445762, -3.252234, "Скрывались от шторма на рейде Торки, Англии", "anchor"],
-    ["W4wpgMcKyw", 30.061900, 47.925846, "Умм-Каср, Ирак", "port"],
-    ["PVR6Pm4xtL", 25.253477, 56.556276, "Бункеровка, Фуджейра, ОАЭ", "anchor"],
-    ["pUQ4EesJPy", 29.941571, 32.559190, "Порт Тавфик, мухафаза Суэц, Египет", "port"],
-    ["CUs3e9UCHZ", 53.746173, -0.296776, "Порт Халл, Великобритания", "port"],
-    ["cNqx2N9HMv", 54.617846, -5.909267, "Белфаст, Великобритания", "port"],
-    ["LJ3Iqg8IUH", 53.892009, 9.147382, "Киль-канал, река Эльба, Германия", "vessel"],
-    ["hcGa99pPnE", 54.366118, 10.141675, "Киль-канал, залив Килер-Фёрде, Германия", "vessel"]
-  ],
-  "thirdVoyage": [
-    ["NdD3amfr6m", 40.988229, 28.907476, "отель Панорама, Стамбул, Турция", "hotel"],
-    ["YPsBfNL4nS", 40.944225, 28.885467, "Стамбул, Турция", "vessel"],
-    ["pxxKh6DlV5", 45.117754, 36.551320, "Порт Кавказ, Россия", "anchor"],
-    ["fBI1q0qeyy", 31.264156, 32.322932, "Порт-Фуад, мухафаза Порт-Саид, Египет", "anchor"],
-    ["j2LfITygwv", 30.378101, 32.338493, "Большое Горькое озеро, мухафаза Исмаилия, Египет", "anchor"],
-    ["BNZ98EqYQL", 29.902413, 32.571605, "Порт-Суец, мухафаза Суэц, Египет", "anchor"],
-    ["T3uy3ZPa6t", 24.994777, 55.080651, "Джебел-Али, ОАЭ", "port"],
-    ["o5fUhNaqMF", 29.351168, 47.932731, "Шувейх, Кувейт", "port"],
-    ["5XZYhSK0Hz", 37.853822, 23.481456, "рейд Пирея, Греция", "anchor"],
-    ["r1aHcHuzyq", 46.324975, 31.105434, "рейд Одесса, Украина", "anchor"],
-    ["kwRu4xx8fP", 46.942352, 31.982218, "причал Нибулон, Николаев, Украина", "port"],
-    ["QU3c2cSJVp", 46.586759, 31.332933, "рейд Рыбаковка, Украина", "anchor"],
-    ["iV5gfifkYa", 29.527954, 34.981371, "рейд Акаба, Иордания", "anchor"],
-    ["34VRS6z7Yv", 29.359519, 34.964570, "порт Акаба, Иордания", "port"],
-    ["oZg2IOmb36", 45.121372, 36.670718, "Тамань, Россия", "anchor"],
-    ["zfdTPRBFsG", 31.141166, 29.801697, "Александрия, Египет", "port"],
-    ["hQBT2CuwJ9", 44.730829, 37.790810, "Новороссийск, Россия", "port"],
-    ["Xd7yCwYB3b", 31.468270, 31.764133, "Дамиетта, Египет", "port"]
-  ],
-  "fourthVoyage": [
-    ["1KjsbjXoNz", 14.67694, -17.428010, "Дакар, Сенегал", "port"],
-    ["WA4MzrcBM6", 5.861100, -10.057073, "Бикьенен, Либерия", "port"],
-    ["aGCjCKQbmk", -4.783663, 11.830507, "Поинт-Нуар, Конго", "port"],
-    ["FlrHZCRofp", -33.965468, 25.632547, "Порт Элизабет, ЮАР", "vessel"]
-  ]
-}
+[
+  {
+    "id": "eot6H4pub7",
+    "lat": 46.960397,
+    "lng": 32.034295,
+    "object": "Зоопарк",
+    "city": "Николаев",
+    "country": "Украина",
+    "comment": "",
+    "icon": "zoo",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "I24ATkW4QV",
+    "lat": 48.186435,
+    "lng": 30.665125,
+    "object": "Музей РВСН",
+    "city": "Лукашевка",
+    "country": "Украина",
+    "comment": "Николаевская область",
+    "icon": "rvsn",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "3E7SQ3xwLW",
+    "lat": 48.52215,
+    "lng": 26.498384,
+    "object": "Хотинская крепость",
+    "city": "Хотин",
+    "country": "Украина",
+    "comment": "Черновецкая область",
+    "icon": "castle",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "CJmJI66UA0",
+    "lat": 48.674581,
+    "lng": 26.562424,
+    "object": "Каменец-Подольская крепость",
+    "city": "Каменец-Подольский",
+    "country": "Украина",
+    "comment": "Хмельницкая область",
+    "icon": "castle",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "W8cPLMByud",
+    "lat": 48.764167,
+    "lng": 30.243611,
+    "object": "Софиевский Парк",
+    "city": "Умань",
+    "country": "Украина",
+    "comment": "",
+    "icon": "park",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "wjXrSgoFSt",
+    "lat": 52.111888,
+    "lng": 31.781761,
+    "object": "Три Сестры",
+    "city": "",
+    "country": "",
+    "comment": "",
+    "icon": "stella",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "lXO0F4TWLM",
+    "lat": 48.166703,
+    "lng": 11.607673,
+    "object": "Английский сад",
+    "city": "Мюнхен",
+    "country": "Германия",
+    "comment": "",
+    "icon": "park",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "LMPdK3BKjW",
+    "lat": 47.795025,
+    "lng": 13.047849,
+    "object": "Вальс-Зиценхайм",
+    "city": "Зальцбург",
+    "country": "Австрия",
+    "comment": "",
+    "icon": "castle",
+    "tags": [
+      "places"
+    ]
+  },
+  {
+    "id": "OmIxZQtxgF",
+    "lat": 46.484213,
+    "lng": 30.731689,
+    "object": "",
+    "city": "Одесса",
+    "country": "Украина",
+    "comment": "",
+    "icon": "odessa",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "lXhsQIkuyg",
+    "lat": 46.975574,
+    "lng": 31.993813,
+    "object": ", Украина",
+    "city": "Николаев",
+    "country": "Украина",
+    "comment": "",
+    "icon": "nikolaev",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "Gp8uSuvu8T",
+    "lat": 50.450439,
+    "lng": 30.523537,
+    "object": "",
+    "city": "Киев",
+    "country": "Украина",
+    "comment": "",
+    "icon": "kiev",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "ax37X74mEH",
+    "lat": 49.839336,
+    "lng": 24.029882,
+    "object": "",
+    "city": "Львов",
+    "country": "Украина",
+    "comment": "",
+    "icon": "lwow",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "2fy5dryWvo",
+    "lat": 48.625256,
+    "lng": 22.2887,
+    "object": "",
+    "city": "Ужгород",
+    "country": "Украина",
+    "comment": "",
+    "icon": "uzhgorod",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "dXmxEaAszU",
+    "lat": 48.292067,
+    "lng": 25.935092,
+    "object": "",
+    "city": "Черновцы",
+    "country": "Украина",
+    "comment": "",
+    "icon": "chernovtsi",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "Ysakh1kmeK",
+    "lat": 47.824188,
+    "lng": 31.178673,
+    "object": "",
+    "city": "Южноукраинск",
+    "country": "Украина",
+    "comment": "Николаевская область",
+    "icon": "yuzhnoukrainsk",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "dnlL6wO1bK",
+    "lat": 46.627791,
+    "lng": 31.188144,
+    "object": "",
+    "city": "Коблево",
+    "country": "Украина",
+    "comment": "Николаевская область",
+    "icon": "koblevo",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "vdmuOPIwaj",
+    "lat": 46.61184,
+    "lng": 31.02507,
+    "object": "",
+    "city": "Южный",
+    "country": "Украина",
+    "comment": "Одесская область",
+    "icon": "yuzhni",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "Mkf9d1FOwC",
+    "lat": 45.684328,
+    "lng": 28.609091,
+    "object": "",
+    "city": "Болград",
+    "country": "Украина",
+    "comment": "Одесская область",
+    "icon": "bolgrad",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "ol4cqksM8s",
+    "lat": 45.407979,
+    "lng": 29.761417,
+    "object": "",
+    "city": "Вилково",
+    "country": "Украина",
+    "comment": "Одесская область",
+    "icon": "vilkovo",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "Ku8KvcJhF8",
+    "lat": 44.948227,
+    "lng": 34.100264,
+    "object": "",
+    "city": "Симферополь",
+    "country": "",
+    "comment": "",
+    "icon": "simferopol",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "7X3xphND7p",
+    "lat": 44.497416,
+    "lng": 34.169446,
+    "object": "",
+    "city": "Ялта",
+    "country": "",
+    "comment": "",
+    "icon": "yalta",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "ELySvIX1sU",
+    "lat": 44.676401,
+    "lng": 34.410123,
+    "object": "",
+    "city": "Алушта",
+    "country": "",
+    "comment": "",
+    "icon": "alushta",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "tqiMsgPO5E",
+    "lat": 44.850557,
+    "lng": 34.976107,
+    "object": "",
+    "city": "Судак",
+    "country": "",
+    "comment": "",
+    "icon": "sudak",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "G04gAY97te",
+    "lat": 45.02668,
+    "lng": 35.383858,
+    "object": "",
+    "city": "Феодосия",
+    "country": "",
+    "comment": "",
+    "icon": "feodosiya",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "pZHEgbWElW",
+    "lat": 46.835991,
+    "lng": 29.611113,
+    "object": "",
+    "city": "Тирасполь",
+    "country": "ПМР",
+    "comment": "",
+    "icon": "tiraspol",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "5c8ickxaIo",
+    "lat": 46.623465,
+    "lng": 29.910923,
+    "object": "",
+    "city": "Днестровск",
+    "country": "ПМР",
+    "comment": "",
+    "icon": "dnestrovsk",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "jwSF8rckZW",
+    "lat": 47.222104,
+    "lng": 39.720179,
+    "object": "",
+    "city": "Ростов-на-Дону",
+    "country": "Россия",
+    "comment": "",
+    "icon": "rostov-on-don",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "9dye6azZ9B",
+    "lat": 50.080325,
+    "lng": 14.428794,
+    "object": "",
+    "city": "Прага",
+    "country": "Чехия",
+    "comment": "",
+    "icon": "prague",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "6hhRwIwbFe",
+    "lat": 50.673117,
+    "lng": 14.038853,
+    "object": "",
+    "city": "Усти-над-Лабем",
+    "country": "Чехия",
+    "comment": "",
+    "icon": "usti-nad-labem",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "UwmeczaZXU",
+    "lat": 51.049629,
+    "lng": 13.737921,
+    "object": "",
+    "city": "Дрезден",
+    "country": "Германия",
+    "comment": "",
+    "icon": "dresden",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "wM2Ix7TbvQ",
+    "lat": 47.809545,
+    "lng": 13.054817,
+    "object": "",
+    "city": "Зальцбург",
+    "country": "",
+    "comment": "",
+    "icon": "salzburg",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "kgTeYJxsEY",
+    "lat": 48.137151,
+    "lng": 11.575394,
+    "object": "",
+    "city": "Мюнхен",
+    "country": "Германия",
+    "comment": "",
+    "icon": "munchen",
+    "tags": [
+      "cities"
+    ]
+  },
+  {
+    "id": "UQA0No4v1f",
+    "lat": 59.800005,
+    "lng": 30.273198,
+    "object": "Международный аэропорт Пулково",
+    "city": "Санкт-Петербург",
+    "country": "Россия",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "TtgYr6Ssez",
+    "lat": 53.889219,
+    "lng": 28.034168,
+    "object": "Национальный аэропорт Минск",
+    "city": "Минск",
+    "country": "Беларусь",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "L7MWLZqPpl",
+    "lat": 46.442617,
+    "lng": 30.675641,
+    "object": "Международный аэропорт Одесса",
+    "city": "Одесса",
+    "country": "Украина",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "nfg9wsnf3w",
+    "lat": 50.351074,
+    "lng": 30.896168,
+    "object": "Международный аэропорт Борисполь",
+    "city": "Киев",
+    "country": "Украина",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "3cxUQmgPNF",
+    "lat": 41.2607,
+    "lng": 28.742626,
+    "object": "Международный аэропорт Стамбул",
+    "city": "Стамбул",
+    "country": "Турция",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "XsmZkvVf7q",
+    "lat": 25.264444,
+    "lng": 55.311666,
+    "object": "Международный аэропорт Дубай",
+    "city": "Дубай",
+    "country": "ОАЭ",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "frjL7wWA3F",
+    "lat": 14.745392,
+    "lng": -17.490493,
+    "object": "Международный аэропорт имени Блеза Дианя",
+    "city": "Дакар",
+    "country": "Сенегал",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "Y2Ngg4dYVr",
+    "lat": -33.984028,
+    "lng": 25.611603,
+    "object": "Международный аэропорт Порт-Элизабет",
+    "city": "Порт-Элизабет",
+    "country": "ЮАР",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "8mcknQU26u",
+    "lat": -26.132608,
+    "lng": 28.232073,
+    "object": "Международный аэропорт имени О. Р. Тамбо",
+    "city": "Йоханнесбург",
+    "country": "ЮАР",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "nQHb4r2xvw",
+    "lat": 25.260001,
+    "lng": 51.614243,
+    "object": "Международный аэропорт До́ха",
+    "city": "До́ха",
+    "country": "Катар",
+    "comment": "",
+    "icon": "plane",
+    "tags": [
+      "airports"
+    ]
+  },
+  {
+    "id": "bsXv5P4vzw",
+    "lat": 59.675095,
+    "lng": 28.412178,
+    "object": "",
+    "city": "Усть-Луга",
+    "country": "Россия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "oXXNXaSUGC",
+    "lat": 31.264156,
+    "lng": 32.322932,
+    "object": "",
+    "city": "Порт-Саид",
+    "country": "Египет",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage",
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "8o002nnpSW",
+    "lat": 30.378101,
+    "lng": 32.338493,
+    "object": "Большое Горькое озеро",
+    "city": "Исмаилия",
+    "country": "Египет",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage",
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "hk2lTvYjmq",
+    "lat": 29.902413,
+    "lng": 32.571605,
+    "object": "",
+    "city": "Порт-Суец",
+    "country": "Египет",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage",
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "FQ7rWBunfQ",
+    "lat": 25.440761,
+    "lng": 55.257188,
+    "object": "Бункеровка",
+    "city": "Шарджа",
+    "country": "ОАЭ",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "n1Ubz5y6jy",
+    "lat": 30.0619,
+    "lng": 47.925846,
+    "object": "",
+    "city": "Умм-Каср",
+    "country": "Ирак",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "ybS4z1q3cA",
+    "lat": 9.924617,
+    "lng": 76.270533,
+    "object": "",
+    "city": "Кочин",
+    "country": "Индия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "f3ayJ0HGuM",
+    "lat": 18.938605,
+    "lng": 72.841457,
+    "object": "",
+    "city": "Мумбаи",
+    "country": "Индия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "yXbQVm3JXk",
+    "lat": 21.153554,
+    "lng": 72.720419,
+    "object": "",
+    "city": "Хазира",
+    "country": "Индия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "fQloXB165U",
+    "lat": 25.004573,
+    "lng": 55.073723,
+    "object": "",
+    "city": "Джебел-Али",
+    "country": "ОАЭ",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage",
+      "secondVoyage",
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "t9IPzCINCo",
+    "lat": 3.039515,
+    "lng": 101.413759,
+    "object": "",
+    "city": "Кланг",
+    "country": "Малайзия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "UIdXRYv8X1",
+    "lat": 1.166178,
+    "lng": 103.66802,
+    "object": "Малаккский пролив",
+    "city": "Сингапур",
+    "country": "Сингапур",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "pIwIxpVc2A",
+    "lat": 30.289349,
+    "lng": 122.080313,
+    "object": "",
+    "city": "Дайшань",
+    "country": "Китай",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "3rvqCQxb9n",
+    "lat": 31.231311,
+    "lng": 121.470058,
+    "object": "",
+    "city": "Шанхай",
+    "country": "Китай",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "qVdrfJeATr",
+    "lat": 35.833262,
+    "lng": 14.671345,
+    "object": "Бункеровка",
+    "city": "",
+    "country": "Мальта",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "hrZQjUD4fo",
+    "lat": 35.160276,
+    "lng": -2.936718,
+    "object": "",
+    "city": "Надор",
+    "country": "Марокко",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "Vim8kQCV6R",
+    "lat": 35.854511,
+    "lng": -5.226503,
+    "object": "Бункеровка",
+    "city": "Сеута",
+    "country": "Испания",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "firstVoyage"
+    ]
+  },
+  {
+    "id": "zxLNqpx7FY",
+    "lat": 55.574987,
+    "lng": 12.827019,
+    "object": "мост Флинтраннан",
+    "city": "",
+    "country": "",
+    "comment": "",
+    "icon": "vessel",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "hkGDPw5Gfn",
+    "lat": 51.565251,
+    "lng": 1.459344,
+    "object": "Скрывались от шторма на рейде",
+    "city": "",
+    "country": "Великобритания",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "2omkBhbSlu",
+    "lat": 35.731662,
+    "lng": -0.707663,
+    "object": "",
+    "city": "Мерс-эль-Кебир",
+    "country": "Алжир",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "SX7aQKv1sO",
+    "lat": 34.924892,
+    "lng": 24.82149,
+    "object": "Бункеровка",
+    "city": "Кали Лименес, Крит",
+    "country": "Греция",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "Xe0JZv3hLw",
+    "lat": 33.483277,
+    "lng": 11.117271,
+    "object": "",
+    "city": "Порт Зарзис",
+    "country": "Тунис",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "NOeTBKp2XT",
+    "lat": 59.892599,
+    "lng": 30.217197,
+    "object": "",
+    "city": "Санкт-Петербург",
+    "country": "Россия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "emuNobVMhk",
+    "lat": 50.445762,
+    "lng": -3.252234,
+    "object": "Скрывались от шторма на рейде",
+    "city": "Торки",
+    "country": "Великобритания",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "PVR6Pm4xtL",
+    "lat": 25.253477,
+    "lng": 56.556276,
+    "object": "Бункеровка",
+    "city": "Фуджейра",
+    "country": "ОАЭ",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "pUQ4EesJPy",
+    "lat": 29.941571,
+    "lng": 32.55919,
+    "object": "",
+    "city": "Порт Тавфик",
+    "country": "Египет",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "CUs3e9UCHZ",
+    "lat": 53.746173,
+    "lng": -0.296776,
+    "object": "",
+    "city": "Порт Халл",
+    "country": "Великобритания",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "cNqx2N9HMv",
+    "lat": 54.617846,
+    "lng": -5.909267,
+    "object": "",
+    "city": "Белфаст",
+    "country": "Великобритания",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "LJ3Iqg8IUH",
+    "lat": 53.892009,
+    "lng": 9.147382,
+    "object": "Киль-канал",
+    "city": "Брунсбюттель",
+    "country": "Германия",
+    "comment": "река Эльба",
+    "icon": "vessel",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "hcGa99pPnE",
+    "lat": 54.366118,
+    "lng": 10.141675,
+    "object": "Киль-канал",
+    "city": "Киль",
+    "country": "Германия",
+    "comment": "залив Килер-Фёрде",
+    "icon": "vessel",
+    "tags": [
+      "secondVoyage"
+    ]
+  },
+  {
+    "id": "NdD3amfr6m",
+    "lat": 40.988229,
+    "lng": 28.907476,
+    "object": "отель Панорама",
+    "city": "Стамбул",
+    "country": "Турция",
+    "comment": "",
+    "icon": "hotel",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "YPsBfNL4nS",
+    "lat": 40.944225,
+    "lng": 28.885467,
+    "object": "",
+    "city": "Стамбул",
+    "country": "Турция",
+    "comment": "",
+    "icon": "vessel",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "pxxKh6DlV5",
+    "lat": 45.117754,
+    "lng": 36.55132,
+    "object": "",
+    "city": "Порт Кавказ",
+    "country": "Россия",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "o5fUhNaqMF",
+    "lat": 29.351168,
+    "lng": 47.932731,
+    "object": "",
+    "city": "Шувейх",
+    "country": "Кувейт",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "5XZYhSK0Hz",
+    "lat": 37.853822,
+    "lng": 23.481456,
+    "object": "рейд",
+    "city": "Пирей",
+    "country": "Греция",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "r1aHcHuzyq",
+    "lat": 46.324975,
+    "lng": 31.105434,
+    "object": "рейд",
+    "city": "Одесса",
+    "country": "Украина",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "kwRu4xx8fP",
+    "lat": 46.942352,
+    "lng": 31.982218,
+    "object": "причал Нибулон",
+    "city": "Николаев",
+    "country": "Украина",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "QU3c2cSJVp",
+    "lat": 46.586759,
+    "lng": 31.332933,
+    "object": "рейд",
+    "city": "Рыбаковка",
+    "country": "Украина",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "iV5gfifkYa",
+    "lat": 29.527954,
+    "lng": 34.981371,
+    "object": "рейд",
+    "city": "Акаба",
+    "country": "Иордания",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "34VRS6z7Yv",
+    "lat": 29.359519,
+    "lng": 34.96457,
+    "object": "порт",
+    "city": "Акаба",
+    "country": "Иордания",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "oZg2IOmb36",
+    "lat": 45.121372,
+    "lng": 36.670718,
+    "object": "",
+    "city": "Тамань",
+    "country": "Россия",
+    "comment": "",
+    "icon": "anchor",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "zfdTPRBFsG",
+    "lat": 31.141166,
+    "lng": 29.801697,
+    "object": "",
+    "city": "Александрия",
+    "country": "Египет",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "hQBT2CuwJ9",
+    "lat": 44.730829,
+    "lng": 37.79081,
+    "object": "",
+    "city": "Новороссийск",
+    "country": "Россия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "Xd7yCwYB3b",
+    "lat": 31.46827,
+    "lng": 31.764133,
+    "object": "",
+    "city": "Дамиетта",
+    "country": "Египет",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "thirdVoyage"
+    ]
+  },
+  {
+    "id": "1KjsbjXoNz",
+    "lat": 14.67694,
+    "lng": -17.42801,
+    "object": "",
+    "city": "Дакар",
+    "country": "Сенегал",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "fourthVoyage"
+    ]
+  },
+  {
+    "id": "WA4MzrcBM6",
+    "lat": 5.8611,
+    "lng": -10.057073,
+    "object": "",
+    "city": "Бикьенен",
+    "country": "Либерия",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "fourthVoyage"
+    ]
+  },
+  {
+    "id": "aGCjCKQbmk",
+    "lat": -4.783663,
+    "lng": 11.830507,
+    "object": "",
+    "city": "Поинт-Нуар",
+    "country": "Конго",
+    "comment": "",
+    "icon": "port",
+    "tags": [
+      "fourthVoyage"
+    ]
+  },
+  {
+    "id": "FlrHZCRofp",
+    "lat": -33.965468,
+    "lng": 25.632547,
+    "object": "",
+    "city": "Порт Элизабет",
+    "country": "ЮАР",
+    "comment": "",
+    "icon": "vessel",
+    "tags": [
+      "fourthVoyage"
+    ]
+  }
+]

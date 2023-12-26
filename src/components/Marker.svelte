@@ -4,7 +4,8 @@
   
   export let marker: Mark;
 
-  const [ id, lat, lng, name, icon ] = marker;
+  const { lat, lng, object, city, country, comment, icon } = marker;
+  const name = [object, city, country].filter(v => v).join(", ")
 </script>
 
 <Marker
@@ -16,7 +17,8 @@
   <Popup openOn="hover" offset={[0, -10]}>
     <div class="marker">
       <img src='./icon/{icon || 'icon'}.png' alt={icon} width="150" />
-      <div>{@html name}</div>
+      <div>{name}</div>
+      <div>{@html comment}</div>
     </div>
   </Popup>
 </Marker>

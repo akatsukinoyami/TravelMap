@@ -1,16 +1,16 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+  import { writable, type Writable } from 'svelte/store';
   import { MapLibre } from 'svelte-maplibre';
   import Marker from './components/Marker.svelte';
   import Menu from './components/Menu/Menu.svelte';
-  import utilsConstructor from './utils.js';
-  import { onMount } from 'svelte';
+  import utilsConstructor, { type Utils } from './utils.js';
   import type { Mark } from './types.js';
 
-  let style = "CartoCDN Positron";
-  let styles: Record<string, string>;
-  let toggles: Record<string, boolean>;
-  let utils: Record<string, any>;
-  let markers: Mark[];
+  let 
+    style = "CartoCDN Positron",
+    styles: Record<string, string>,
+    utils: Writable<Utils>;
   
   onMount(async () => {
     const [markersResponse, stylesResponse] = await Promise.all([
@@ -19,26 +19,22 @@
     const [markersData, stylesData] = await Promise.all([
       markersResponse.json(), stylesResponse.json(),
     ])
-    utils = utilsConstructor(markersData);
-    toggles = utils.createToggles();
     styles = stylesData;
+    utils = writable(utilsConstructor(markersData));
   })
-
-  $: if (utils?.awoo) {
-    markers = utils.formatMarkers(toggles);
-  }
 </script>
 
-{#if markers && styles}
-  <Menu bind:toggles bind:styles bind:style />
+{#if $utils?.awoo && styles}
   <MapLibre 
+    let:map
     center={[30.731689, 46.484213]}
     zoom={7}
     class="map"
     standardControls
     style={styles[style]}
   >
-    {#each markers as marker (marker[0])}
+    <Menu {utils} {map} {styles} bind:style />
+    {#each $utils.markers() as marker (marker.id)}
       <Marker {marker} />
     {/each}
   </MapLibre>
