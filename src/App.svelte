@@ -1,39 +1,44 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { writable, type Writable } from 'svelte/store';
   import { MapLibre } from 'svelte-maplibre';
-  import Marker from './components/Marker.svelte';
-  import Menu from './components/Menu/Menu.svelte';
-  import utilsConstructor, { type Utils } from './utils.js';
-  import type { Mark } from './types.js';
+  import { type Writable } from 'svelte/store';
+  import { parse } from 'yaml';
 
-  let 
-    style = "CartoCDN Positron",
-    styles: Record<string, string>,
-    utils: Writable<Utils>;
-  
-  onMount(async () => {
-    const [markersResponse, stylesResponse] = await Promise.all([
-      fetch('/markers.json'), fetch('/styles.json'),
-    ])
-    const [markersData, stylesData] = await Promise.all([
-      markersResponse.json(), stylesResponse.json(),
-    ])
-    styles = stylesData;
-    utils = writable(utilsConstructor(markersData));
-  })
+  import Marker from './components/Marker.svelte';
+  import Menu from './components/Menu.svelte';
+  import utilsConstructor from './utils.js';
+  import type { Utils } from './types.js';
+
+  let style = $state("CartoCDN Positron");
+  let styles = $state<Record<string, string> | undefined>(undefined);
+  let utils = $state<Writable<Utils> | undefined>(undefined);
+
+  $effect(() => {
+    if (location.pathname !== '/') {
+      location.pathname = '/';
+    }
+  });
+
+  onMount(() => {
+    fetch('/styles.yaml')
+      .then(r => r.text())
+      .then(data => { styles = parse(data); });
+
+    fetch('/markers.yaml')
+      .then(r => r.text())
+      .then(data => { utils = utilsConstructor(parse(data)); });
+  });
 </script>
 
-{#if $utils?.awoo && styles}
-  <MapLibre 
-    let:map
+{#if utils && $utils?.awoo && styles}
+  <MapLibre
     center={[30.731689, 46.484213]}
     zoom={7}
     class="map"
     standardControls
     style={styles[style]}
   >
-    <Menu {utils} {map} {styles} bind:style />
+    <Menu {utils} {styles} bind:style />
     {#each $utils.markers() as marker (marker.id)}
       <Marker {marker} />
     {/each}

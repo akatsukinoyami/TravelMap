@@ -1,0 +1,962 @@
+---
+'':
+  - city: ''
+    comment: ''
+    icon: stella
+    id: wjXrSgoFSt
+    lat: 52.111888
+    links: []
+    lng: 31.781761
+    object: Три Сестры
+    tags:
+      - places
+  - city: Симферополь
+    comment: ''
+    icon: simferopol
+    id: Ku8KvcJhF8
+    lat: 44.948227
+    links: []
+    lng: 34.100264
+    object: ''
+    tags:
+      - cities
+  - city: Ялта
+    comment: ''
+    icon: yalta
+    id: 7X3xphND7p
+    lat: 44.497416
+    links: []
+    lng: 34.169446
+    object: ''
+    tags:
+      - cities
+  - city: Алушта
+    comment: ''
+    icon: alushta
+    id: ELySvIX1sU
+    lat: 44.676401
+    links: []
+    lng: 34.410123
+    object: ''
+    tags:
+      - cities
+  - city: Судак
+    comment: ''
+    icon: sudak
+    id: tqiMsgPO5E
+    lat: 44.850557
+    links: []
+    lng: 34.976107
+    object: ''
+    tags:
+      - cities
+  - city: Феодосия
+    comment: ''
+    icon: feodosiya
+    id: G04gAY97te
+    lat: 45.02668
+    links: []
+    lng: 35.383858
+    object: ''
+    tags:
+      - cities
+  - city: Зальцбург
+    comment: ''
+    icon: salzburg
+    id: wM2Ix7TbvQ
+    lat: 47.809545
+    links: []
+    lng: 13.054817
+    object: ''
+    tags:
+      - cities
+  - city: ''
+    comment: ''
+    icon: vessel
+    id: zxLNqpx7FY
+    lat: 55.574987
+    links: []
+    lng: 12.827019
+    object: мост Флинтраннан
+    tags:
+      - secondVoyage
+Австрия:
+  - city: Зальцбург
+    comment: ''
+    icon: castle
+    id: LMPdK3BKjW
+    lat: 47.795025
+    links: []
+    lng: 13.047849
+    object: Вальс-Зиценхайм
+    tags:
+      - places
+Алжир:
+  - city: Мерс-эль-Кебир
+    comment: ''
+    icon: port
+    id: 2omkBhbSlu
+    lat: 35.731662
+    links: []
+    lng: -0.707663
+    object: ''
+    tags:
+      - secondVoyage
+Беларусь:
+  - city: Минск
+    comment: ''
+    icon: plane
+    id: TtgYr6Ssez
+    lat: 53.889219
+    links: []
+    lng: 28.034168
+    object: Национальный аэропорт Минск
+    tags:
+      - airports
+Великобритания:
+  - city: ''
+    comment: ''
+    icon: anchor
+    id: hkGDPw5Gfn
+    lat: 51.565251
+    links: []
+    lng: 1.459344
+    object: Скрывались от шторма на рейде
+    tags:
+      - secondVoyage
+  - city: Торки
+    comment: ''
+    icon: anchor
+    id: emuNobVMhk
+    lat: 50.445762
+    links: []
+    lng: -3.252234
+    object: Скрывались от шторма на рейде
+    tags:
+      - secondVoyage
+  - city: Порт Халл
+    comment: ''
+    icon: port
+    id: CUs3e9UCHZ
+    lat: 53.746173
+    links: []
+    lng: -0.296776
+    object: ''
+    tags:
+      - secondVoyage
+  - city: Белфаст
+    comment: ''
+    icon: port
+    id: cNqx2N9HMv
+    lat: 54.617846
+    links: []
+    lng: -5.909267
+    object: ''
+    tags:
+      - secondVoyage
+Германия:
+  - city: Мюнхен
+    comment: ''
+    icon: park
+    id: lXO0F4TWLM
+    lat: 48.166703
+    links: []
+    lng: 11.607673
+    object: Английский сад
+    tags:
+      - places
+  - city: Бэд-Шандау
+    comment: ''
+    icon: bad_schandau
+    id: 3j56nl3kn24mk5
+    lat: 50.91940395286016
+    links: []
+    lng: 14.137591642385646
+    object: ''
+    tags:
+      - cities
+  - city: Дрезден
+    comment: ''
+    icon: dresden
+    id: UwmeczaZXU
+    lat: 51.049629
+    links: []
+    lng: 13.737921
+    object: ''
+    tags:
+      - cities
+  - city: Мюнхен
+    comment: ''
+    icon: munchen
+    id: kgTeYJxsEY
+    lat: 48.137151
+    links: []
+    lng: 11.575394
+    object: ''
+    tags:
+      - cities
+  - city: Брунсбюттель
+    comment: река Эльба
+    icon: vessel
+    id: LJ3Iqg8IUH
+    lat: 53.892009
+    links: []
+    lng: 9.147382
+    object: Киль-канал
+    tags:
+      - secondVoyage
+  - city: Киль
+    comment: залив Килер-Фёрде
+    icon: vessel
+    id: hcGa99pPnE
+    lat: 54.366118
+    links: []
+    lng: 10.141675
+    object: Киль-канал
+    tags:
+      - secondVoyage
+Греция:
+  - city: Кали Лименес, Крит
+    comment: ''
+    icon: anchor
+    id: SX7aQKv1sO
+    lat: 34.924892
+    links: []
+    lng: 24.82149
+    object: Бункеровка
+    tags:
+      - secondVoyage
+  - city: Пирей
+    comment: ''
+    icon: anchor
+    id: 5XZYhSK0Hz
+    lat: 37.853822
+    links: []
+    lng: 23.481456
+    object: рейд
+    tags:
+      - thirdVoyage
+Египет:
+  - city: Порт-Саид
+    comment: ''
+    icon: anchor
+    id: oXXNXaSUGC
+    lat: 31.264156
+    links: []
+    lng: 32.322932
+    object: ''
+    tags:
+      - firstVoyage
+      - secondVoyage
+      - thirdVoyage
+  - city: Исмаилия
+    comment: ''
+    icon: anchor
+    id: 8o002nnpSW
+    lat: 30.378101
+    links: []
+    lng: 32.338493
+    object: Большое Горькое озеро
+    tags:
+      - firstVoyage
+      - secondVoyage
+      - thirdVoyage
+  - city: Порт-Суец
+    comment: ''
+    icon: anchor
+    id: hk2lTvYjmq
+    lat: 29.902413
+    links: []
+    lng: 32.571605
+    object: ''
+    tags:
+      - firstVoyage
+      - secondVoyage
+      - thirdVoyage
+  - city: Порт Тавфик
+    comment: ''
+    icon: port
+    id: pUQ4EesJPy
+    lat: 29.941571
+    links: []
+    lng: 32.55919
+    object: ''
+    tags:
+      - secondVoyage
+  - city: Александрия
+    comment: ''
+    icon: port
+    id: zfdTPRBFsG
+    lat: 31.141166
+    links: []
+    lng: 29.801697
+    object: ''
+    tags:
+      - thirdVoyage
+  - city: Дамиетта
+    comment: ''
+    icon: port
+    id: Xd7yCwYB3b
+    lat: 31.46827
+    links: []
+    lng: 31.764133
+    object: ''
+    tags:
+      - thirdVoyage
+Индия:
+  - city: Кочин
+    comment: ''
+    icon: port
+    id: ybS4z1q3cA
+    lat: 9.924617
+    links: []
+    lng: 76.270533
+    object: ''
+    tags:
+      - firstVoyage
+      - secondVoyage
+  - city: Мумбаи
+    comment: ''
+    icon: port
+    id: f3ayJ0HGuM
+    lat: 18.938605
+    links: []
+    lng: 72.841457
+    object: ''
+    tags:
+      - firstVoyage
+  - city: Хазира
+    comment: ''
+    icon: port
+    id: yXbQVm3JXk
+    lat: 21.153554
+    links: []
+    lng: 72.720419
+    object: ''
+    tags:
+      - firstVoyage
+Иордания:
+  - city: Акаба
+    comment: ''
+    icon: anchor
+    id: iV5gfifkYa
+    lat: 29.527954
+    links: []
+    lng: 34.981371
+    object: рейд
+    tags:
+      - thirdVoyage
+  - city: Акаба
+    comment: ''
+    icon: port
+    id: 34VRS6z7Yv
+    lat: 29.359519
+    links: []
+    lng: 34.96457
+    object: порт
+    tags:
+      - thirdVoyage
+Ирак:
+  - city: Умм-Каср
+    comment: ''
+    icon: port
+    id: n1Ubz5y6jy
+    lat: 30.0619
+    links: []
+    lng: 47.925846
+    object: ''
+    tags:
+      - firstVoyage
+      - secondVoyage
+Испания:
+  - city: Сеута
+    comment: ''
+    icon: anchor
+    id: Vim8kQCV6R
+    lat: 35.854511
+    links: []
+    lng: -5.226503
+    object: Бункеровка
+    tags:
+      - firstVoyage
+Катар:
+  - city: До́ха
+    comment: ''
+    icon: plane
+    id: nQHb4r2xvw
+    lat: 25.260001
+    links: []
+    lng: 51.614243
+    object: Международный аэропорт До́ха
+    tags:
+      - airports
+Китай:
+  - city: Дайшань
+    comment: ''
+    icon: port
+    id: pIwIxpVc2A
+    lat: 30.289349
+    links: []
+    lng: 122.080313
+    object: ''
+    tags:
+      - firstVoyage
+  - city: Шанхай
+    comment: ''
+    icon: port
+    id: 3rvqCQxb9n
+    lat: 31.231311
+    links: []
+    lng: 121.470058
+    object: ''
+    tags:
+      - firstVoyage
+Конго:
+  - city: Поинт-Нуар
+    comment: ''
+    icon: port
+    id: aGCjCKQbmk
+    lat: -4.783663
+    links: []
+    lng: 11.830507
+    object: ''
+    tags:
+      - fourthVoyage
+Кувейт:
+  - city: Шувейх
+    comment: ''
+    icon: port
+    id: o5fUhNaqMF
+    lat: 29.351168
+    links: []
+    lng: 47.932731
+    object: ''
+    tags:
+      - thirdVoyage
+Либерия:
+  - city: Бикьенен
+    comment: ''
+    icon: port
+    id: WA4MzrcBM6
+    lat: 5.8611
+    links: []
+    lng: -10.057073
+    object: ''
+    tags:
+      - fourthVoyage
+Малайзия:
+  - city: Кланг
+    comment: ''
+    icon: port
+    id: t9IPzCINCo
+    lat: 3.039515
+    links: []
+    lng: 101.413759
+    object: ''
+    tags:
+      - firstVoyage
+Мальта:
+  - city: ''
+    comment: ''
+    icon: anchor
+    id: qVdrfJeATr
+    lat: 35.833262
+    links: []
+    lng: 14.671345
+    object: Бункеровка
+    tags:
+      - firstVoyage
+Марокко:
+  - city: Надор
+    comment: ''
+    icon: port
+    id: hrZQjUD4fo
+    lat: 35.160276
+    links: []
+    lng: -2.936718
+    object: ''
+    tags:
+      - firstVoyage
+ОАЭ:
+  - city: Дубай
+    comment: ''
+    icon: plane
+    id: XsmZkvVf7q
+    lat: 25.264444
+    links: []
+    lng: 55.311666
+    object: Международный аэропорт Дубай
+    tags:
+      - airports
+  - city: Шарджа
+    comment: ''
+    icon: anchor
+    id: FQ7rWBunfQ
+    lat: 25.440761
+    links: []
+    lng: 55.257188
+    object: Бункеровка
+    tags:
+      - firstVoyage
+  - city: Джебел-Али
+    comment: ''
+    icon: port
+    id: fQloXB165U
+    lat: 25.004573
+    links: []
+    lng: 55.073723
+    object: ''
+    tags:
+      - firstVoyage
+      - secondVoyage
+      - thirdVoyage
+  - city: Фуджейра
+    comment: ''
+    icon: anchor
+    id: PVR6Pm4xtL
+    lat: 25.253477
+    links: []
+    lng: 56.556276
+    object: Бункеровка
+    tags:
+      - secondVoyage
+ПМР:
+  - city: Тирасполь
+    comment: ''
+    icon: tiraspol
+    id: pZHEgbWElW
+    lat: 46.835991
+    links: []
+    lng: 29.611113
+    object: ''
+    tags:
+      - cities
+  - city: Днестровск
+    comment: ''
+    icon: dnestrovsk
+    id: 5c8ickxaIo
+    lat: 46.623465
+    links: []
+    lng: 29.910923
+    object: ''
+    tags:
+      - cities
+Россия:
+  - city: Ростов-на-Дону
+    comment: ''
+    icon: rostov-on-don
+    id: jwSF8rckZW
+    lat: 47.222104
+    links: []
+    lng: 39.720179
+    object: ''
+    tags:
+      - cities
+  - city: Санкт-Петербург
+    comment: ''
+    icon: plane
+    id: UQA0No4v1f
+    lat: 59.800005
+    links: []
+    lng: 30.273198
+    object: Международный аэропорт Пулково
+    tags:
+      - airports
+  - city: Усть-Луга
+    comment: ''
+    icon: port
+    id: bsXv5P4vzw
+    lat: 59.675095
+    links: []
+    lng: 28.412178
+    object: ''
+    tags:
+      - firstVoyage
+      - secondVoyage
+  - city: Санкт-Петербург
+    comment: ''
+    icon: port
+    id: NOeTBKp2XT
+    lat: 59.892599
+    links: []
+    lng: 30.217197
+    object: ''
+    tags:
+      - secondVoyage
+  - city: Порт Кавказ
+    comment: ''
+    icon: anchor
+    id: pxxKh6DlV5
+    lat: 45.117754
+    links: []
+    lng: 36.55132
+    object: ''
+    tags:
+      - thirdVoyage
+  - city: Тамань
+    comment: ''
+    icon: anchor
+    id: oZg2IOmb36
+    lat: 45.121372
+    links: []
+    lng: 36.670718
+    object: ''
+    tags:
+      - thirdVoyage
+  - city: Новороссийск
+    comment: ''
+    icon: port
+    id: hQBT2CuwJ9
+    lat: 44.730829
+    links: []
+    lng: 37.79081
+    object: ''
+    tags:
+      - thirdVoyage
+Сенегал:
+  - city: Дакар
+    comment: ''
+    icon: plane
+    id: frjL7wWA3F
+    lat: 14.745392
+    links: []
+    lng: -17.490493
+    object: Международный аэропорт имени Блеза Дианя
+    tags:
+      - airports
+  - city: Дакар
+    comment: ''
+    icon: port
+    id: 1KjsbjXoNz
+    lat: 14.67694
+    links: []
+    lng: -17.42801
+    object: ''
+    tags:
+      - fourthVoyage
+Сингапур:
+  - city: Сингапур
+    comment: ''
+    icon: anchor
+    id: UIdXRYv8X1
+    lat: 1.166178
+    links: []
+    lng: 103.66802
+    object: Малаккский пролив
+    tags:
+      - firstVoyage
+Тунис:
+  - city: Порт Зарзис
+    comment: ''
+    icon: port
+    id: Xe0JZv3hLw
+    lat: 33.483277
+    links: []
+    lng: 11.117271
+    object: ''
+    tags:
+      - secondVoyage
+Турция:
+  - city: Стамбул
+    comment: ''
+    icon: plane
+    id: 3cxUQmgPNF
+    lat: 41.2607
+    links: []
+    lng: 28.742626
+    object: Международный аэропорт Стамбул
+    tags:
+      - airports
+  - city: Стамбул
+    comment: ''
+    icon: hotel
+    id: NdD3amfr6m
+    lat: 40.988229
+    links: []
+    lng: 28.907476
+    object: отель Панорама
+    tags:
+      - thirdVoyage
+  - city: Стамбул
+    comment: ''
+    icon: vessel
+    id: YPsBfNL4nS
+    lat: 40.944225
+    links: []
+    lng: 28.885467
+    object: ''
+    tags:
+      - thirdVoyage
+Украина:
+  - city: Николаев
+    comment: ''
+    icon: zoo
+    id: eot6H4pub7
+    lat: 46.960397
+    links: []
+    lng: 32.034295
+    object: Зоопарк
+    tags:
+      - places
+  - city: Лукашевка
+    comment: Николаевская область
+    icon: rvsn
+    id: I24ATkW4QV
+    lat: 48.186435
+    links: []
+    lng: 30.665125
+    object: Музей РВСН
+    tags:
+      - places
+  - city: Хотин
+    comment: Черновецкая область
+    icon: castle
+    id: 3E7SQ3xwLW
+    lat: 48.52215
+    links: vscode-yaml-sort.array.2
+    lng: 26.498384
+    object: Хотинская крепость
+    tags:
+      - places
+  - city: Каменец-Подольский
+    comment: Хмельницкая область
+    icon: castle
+    id: CJmJI66UA0
+    lat: 48.674581
+    links: vscode-yaml-sort.array.3
+    lng: 26.562424
+    object: Каменец-Подольская крепость
+    tags:
+      - places
+  - city: Умань
+    comment: ''
+    icon: park
+    id: W8cPLMByud
+    lat: 48.764167
+    links: vscode-yaml-sort.array.4
+    lng: 30.243611
+    object: Софиевский Парк
+    tags:
+      - places
+  - city: Одесса
+    comment: ''
+    icon: odessa
+    id: OmIxZQtxgF
+    lat: 46.484213
+    links: vscode-yaml-sort.array.5
+    lng: 30.731689
+    object: ''
+    tags:
+      - cities
+  - city: Николаев
+    comment: ''
+    icon: nikolaev
+    id: lXhsQIkuyg
+    lat: 46.975574
+    links: vscode-yaml-sort.array.6
+    lng: 31.993813
+    object: ', Украина'
+    tags:
+      - cities
+  - city: Киев
+    comment: ''
+    icon: kiev
+    id: Gp8uSuvu8T
+    lat: 50.450439
+    links: vscode-yaml-sort.array.7
+    lng: 30.523537
+    object: ''
+    tags:
+      - cities
+  - city: Львов
+    comment: ''
+    icon: lwow
+    id: ax37X74mEH
+    lat: 49.839336
+    links: vscode-yaml-sort.array.8
+    lng: 24.029882
+    object: ''
+    tags:
+      - cities
+  - city: Ужгород
+    comment: ''
+    icon: uzhgorod
+    id: 2fy5dryWvo
+    lat: 48.625256
+    links: vscode-yaml-sort.array.9
+    lng: 22.2887
+    object: ''
+    tags:
+      - cities
+  - city: Черновцы
+    comment: ''
+    icon: chernovtsi
+    id: dXmxEaAszU
+    lat: 48.292067
+    links: []
+    lng: 25.935092
+    object: ''
+    tags:
+      - cities
+  - city: Южноукраинск
+    comment: Николаевская область
+    icon: yuzhnoukrainsk
+    id: Ysakh1kmeK
+    lat: 47.824188
+    links: []
+    lng: 31.178673
+    object: ''
+    tags:
+      - cities
+  - city: Коблево
+    comment: Николаевская область
+    icon: koblevo
+    id: dnlL6wO1bK
+    lat: 46.627791
+    links: []
+    lng: 31.188144
+    object: ''
+    tags:
+      - cities
+  - city: Южный
+    comment: Одесская область
+    icon: yuzhni
+    id: vdmuOPIwaj
+    lat: 46.61184
+    links: []
+    lng: 31.02507
+    object: ''
+    tags:
+      - cities
+  - city: Болград
+    comment: Одесская область
+    icon: bolgrad
+    id: Mkf9d1FOwC
+    lat: 45.684328
+    links: []
+    lng: 28.609091
+    object: ''
+    tags:
+      - cities
+  - city: Вилково
+    comment: Одесская область
+    icon: vilkovo
+    id: ol4cqksM8s
+    lat: 45.407979
+    links: []
+    lng: 29.761417
+    object: ''
+    tags:
+      - cities
+  - city: Одесса
+    comment: ''
+    icon: plane
+    id: L7MWLZqPpl
+    lat: 46.442617
+    links: []
+    lng: 30.675641
+    object: Международный аэропорт Одесса
+    tags:
+      - airports
+  - city: Киев
+    comment: ''
+    icon: plane
+    id: nfg9wsnf3w
+    lat: 50.351074
+    links: []
+    lng: 30.896168
+    object: Международный аэропорт Борисполь
+    tags:
+      - airports
+  - city: Одесса
+    comment: ''
+    icon: anchor
+    id: r1aHcHuzyq
+    lat: 46.324975
+    links: []
+    lng: 31.105434
+    object: рейд
+    tags:
+      - thirdVoyage
+  - city: Николаев
+    comment: ''
+    icon: port
+    id: kwRu4xx8fP
+    lat: 46.942352
+    links: []
+    lng: 31.982218
+    object: причал Нибулон
+    tags:
+      - thirdVoyage
+  - city: Рыбаковка
+    comment: ''
+    icon: anchor
+    id: QU3c2cSJVp
+    lat: 46.586759
+    links: []
+    lng: 31.332933
+    object: рейд
+    tags:
+      - thirdVoyage
+Чехия:
+  - city: Прага
+    comment: ''
+    icon: prague
+    id: 9dye6azZ9B
+    lat: 50.080325
+    links: []
+    lng: 14.428794
+    object: ''
+    tags:
+      - cities
+  - city: Усти-над-Лабем
+    comment: ''
+    icon: usti-nad-labem
+    id: 6hhRwIwbFe
+    lat: 50.673117
+    links: []
+    lng: 14.038853
+    object: ''
+    tags:
+      - cities
+  - city: Дечин
+    comment: ''
+    icon: decin
+    id: j902j435045
+    lat: 50.775241442513305
+    links: []
+    lng: 14.22360191254688
+    object: ''
+    tags:
+      - cities
+ЮАР:
+  - city: Порт-Элизабет
+    comment: ''
+    icon: plane
+    id: Y2Ngg4dYVr
+    lat: -33.984028
+    links: []
+    lng: 25.611603
+    object: Международный аэропорт Порт-Элизабет
+    tags:
+      - airports
+  - city: Йоханнесбург
+    comment: ''
+    icon: plane
+    id: 8mcknQU26u
+    lat: -26.132608
+    links: []
+    lng: 28.232073
+    object: Международный аэропорт имени О. Р. Тамбо
+    tags:
+      - airports
+  - city: Порт Элизабет
+    comment: ''
+    icon: vessel
+    id: FlrHZCRofp
+    lat: -33.965468
+    links: []
+    lng: 25.632547
+    object: ''
+    tags:
+      - fourthVoyage
