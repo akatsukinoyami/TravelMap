@@ -1,17 +1,12 @@
-import type { Mark } from './types.js';
+import { writable, type Writable } from 'svelte/store';
+import type { Mark, Utils } from './types.js';
 
-export type Utils = {
-  awoo: true;
-  toggles: Record<string, boolean>;
-  countries: string[];
-  cities: string[];
-  coordsByCity: (city: string) => [number, number];
-  markers: () => Mark[];
-}
-
-export default function utilsConstructor(markersJson: any): Utils {
-  const markers = markersJson as unknown as Mark[];
-  const categories = markers.map(mark => mark.tags).flat().filter(unique);
+export default function utilsConstructor(markersJson: any): Writable<Utils> {
+  const markers = markersJson as Record<string, Mark[]>;
+  const markersFlat = Object.entries(markers).map(([country, markers]) => 
+    markers.map(marker => ({ ...marker, country }))
+  ).flat();
+  const categories = markersFlat.map(mark => mark.tags).flat().filter(unique);
 
   const fromStorage = localStorage.getItem('toggles');
 
@@ -21,14 +16,14 @@ export default function utilsConstructor(markersJson: any): Utils {
     if(fromStorage) toggles = { ...toggles, ...JSON.parse(fromStorage) };
   } catch {
   } finally {
-    return {
+    return writable<Utils>({
       awoo: true,
       toggles,
-      countries: markers.map(mark => mark.country).filter(unique).filter(v => v).sort(),
-      cities: markers.map(mark => mark.city).filter(unique).filter(v => v).sort(),
+      countries: Object.keys(markers),
+      cities: markersFlat.map(mark => mark.city).filter(unique).filter(v => v).sort(),
 
       coordsByCity(city: string): [number, number] {
-        const mark = markers.find(mark => mark.city === city);
+        const mark = markersFlat.find(mark => mark.city === city);
         if(mark) return [mark.lng, mark.lat];
         return [0, 0];
       },
@@ -38,12 +33,12 @@ export default function utilsConstructor(markersJson: any): Utils {
           .map(category => this.toggles[category] ? category : "")
           .filter(val => val);
   
-        return markers.filter(
+        return markersFlat.filter(
           mark => activeCategories.some(
             category => mark.tags.includes(category)
         ))
       }
-    }
+    })
   }
 }
 

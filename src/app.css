@@ -1,7 +1,22 @@
-html, body, .map {
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1.25;
+  }
+}
+
+/* .map targets the MapLibre canvas element rendered by svelte-maplibre,
+   must be global (not scoped) since it's on a third-party component. */
+.map {
   height: 100vh;
   width: 100vw;
-  margin: 0;
-  padding: 0;
-  line-height: 125%;
 }
