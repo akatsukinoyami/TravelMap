@@ -9,7 +9,10 @@
   import utilsConstructor from './utils.js';
   import type { Utils } from './types.js';
 
-  let style = $state("CartoCDN Positron");
+  const STYLE_KEY = 'mapStyle';
+  let style = $state(localStorage.getItem(STYLE_KEY) ?? "CartoCDN Positron");
+
+  $effect(() => { localStorage.setItem(STYLE_KEY, style); });
   let styles = $state<Record<string, string> | undefined>(undefined);
   let utils = $state<Writable<Utils> | undefined>(undefined);
 
