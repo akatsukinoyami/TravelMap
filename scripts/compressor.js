@@ -10,7 +10,7 @@ import { glob } from 'glob';
   console.log(`Compressing bundle with ${extension}`);
   
   glob
-    .sync('dist/**/*.?(js|json|html|css)')
+    .sync('dist/**/*.?(js|html|css|json|yaml|yml)')
     .forEach(filepath => {
       fs.readFile(filepath, (err, buffer) => {
         fs.writeFileSync(
