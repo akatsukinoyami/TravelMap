@@ -47,11 +47,13 @@
   function travel(city: string): void {
     if (map) map.flyTo({ center: $utils.coordsByCity(city) });
   }
+
+  let countries = $derived($utils.countries.filter(Boolean));
 </script>
 
 <button
   bind:this={openerEl}
-  class="absolute right-0 top-2.5 h-[30px] w-5 z-999 text-white rounded-l-[7px] bg-black/80 border border-black/80 cursor-pointer"
+  class="absolute right-0 top-2.5 h-7.5 w-5 z-999 text-white rounded-l-[7px] bg-black/60 border border-black/80 cursor-pointer"
   onclick={() => hidden = !hidden}
 >
   {hidden ? "+" : "–"}
@@ -60,12 +62,12 @@
 <form
   bind:this={formEl}
   id="filters"
-  class="p-4 absolute top-2.5 right-[22px] text-white bg-black/80 rounded-[10px] z-999 shadow-[0_10px_15px_rgb(0,0,0,0.6)] backdrop-blur-sm w-1/4"
+  class="p-4 absolute top-2.5 right-5.5 text-white bg-black/60 rounded-[10px] z-999 shadow-[0_10px_15px_rgb(0,0,0,0.6)] backdrop-blur-sm w-1/4"
   transition:fly={{ delay: 100, duration: 500, x: 100 }}
   {hidden}
 >
-  <Details summary="Countries {$utils.countries.length}" hr>
-    {$utils.countries.join(', ')}
+  <Details summary="Countries {countries.length}" hr>
+    {countries.join(', ')}
   </Details>
   <Details summary="Cities {$utils.cities.length}" hr>
     {#each $utils.cities as city, index}
